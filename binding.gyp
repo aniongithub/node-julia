@@ -134,10 +134,10 @@
       [
         [ "gcc_target == 'arm-poky-linux-gnueabi'",
           {
-            "cflags": [ "-std=<(std)", "-Wno-strict-aliasing", "-march=armv7-a" ]
+            "cflags": [ "-std=c++11", "-Wno-strict-aliasing", "-march=armv7-a" ]
           },
           {
-            "cflags": [ "-std=<(std)", "-Wno-strict-aliasing" ]
+            "cflags": [ "-std=c++11", "-Wno-strict-aliasing" ]
           }
         ],
         [ "OS == 'mac'",
